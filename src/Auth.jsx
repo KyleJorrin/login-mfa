@@ -69,7 +69,7 @@ export default function Auth (){
                     <form id="mfa-form" onSubmit={authenticate}>
                         <div className="py-4">
                             <span className="px-2">
-                                <input type="text" id="otpcode" maxLength="6" minLength="6" className="w-30 h-12 text-center text-xl font-bold border border-gray-500 rounded-lg focus:border-blue-500 focus:ring-2 focus:ring-blue-500 outline-none" />
+                                <input type="text" id="otpcode" maxLength="6" minLength="6" placeholder="Enter Code" className="w-30 h-12 text-center text-xl font-bold border border-gray-500 rounded-lg focus:border-blue-500 focus:ring-2 focus:ring-blue-500 outline-none" />
                             </span>
                             <span className="px-2">
                                 <input type="submit" value="Continue" className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"></input>
