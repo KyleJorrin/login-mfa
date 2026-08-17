@@ -1,7 +1,7 @@
 import React, { useState, useContext} from 'react'
 import { useNavigate, Navigate} from 'react-router-dom';
 import { UserContext, CardContext } from './App';
-import Card from './Card.jsx'
+import Card from './components/Card.jsx'
 
 const Status = Object.freeze({
     PENDING: 'PENDING',

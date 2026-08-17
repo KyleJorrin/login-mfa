@@ -1,8 +1,8 @@
 import React, { useState, useContext } from 'react';
 import { Link, useNavigate} from 'react-router-dom';
 import { UserContext } from './App';
-import Warning from './Warning.jsx'
-import SuccessMsg from './SuccessMsg.jsx'
+import Warning from './components/Warning.jsx'
+import SuccessMsg from './components/SuccessMsg.jsx'
 
 const Status = Object.freeze({
     PENDING: 'PENDING',
